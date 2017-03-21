@@ -1,0 +1,26 @@
+{
+  "name": "krem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oshevchuk/krem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oshevchuk/krem/issues"
+  },
+  "homepage": "https://github.com/oshevchuk/krem#readme",
+  "devDependencies": {
+    "@types/jquery": "^2.0.41"
+  },
+  "dependencies": {
+    "@types/jquery": "^2.0.41",
+    "bootstrap": "^3.3.7"
+  }
+}

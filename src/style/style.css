@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-size: 1.8em;
+    line-height: 1.3;
+}
+
+.intro{
+    background-image: url("../img/bg-1.png");
+}
+
+.intro .container{
+    padding-top: 37px;
+    padding-bottom: 11px;
+}
+
+.intro-header{
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.intro-header ul{
+    list-style: none;
+}
+
+.intro-header li{
+    margin-right: 35px;
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.intro-header li:not(:last-child){
+    margin-right: 35px;
+}
+.intro-header li:before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    height: 57px;
+    width: 57px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.headItems li:first-child:before{
+    background-image: url("../img/badge-1.png");
+}
+
+.headItems li:nth-child(2):before{
+    background-image: url("../img/badge-2.png");
+}
+.headItems li:nth-child(3):before{
+    background-image: url("../img/badge-3.png");
+}
+
+.consist{
+
+}
+
+.steps{
+
+}
+
+.review{
+
+}
+
+.results{
+
+}
+
+.order{
+
+}
+
+.container{
+    min-width: 304px;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.logo a{
+    background-color: transparent;
+    text-decoration: none;
+    transition: color ease 0.2s;
+}
+
+.logo img{
+    border: none;
+    max-width: 100%;
+}
