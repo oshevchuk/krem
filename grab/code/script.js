@@ -54,7 +54,7 @@ function showPop() {
     if (showInfo) {
         $('.goshowb').animate({
             // opacity: 0.25,
-            left: "+=50",
+            // left: "+=50",
             height: "toggle"
         }, 500, function () {
             // Animation complete.
