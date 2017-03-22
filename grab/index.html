@@ -1,10 +1,413 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width">
+    <title>Крем-воск «Здоров» от морщин</title>
+
+    <!-- CSS -->
+    <!--<link type="text/css" rel="stylesheet" href="code/jquery.formstyler.css" />-->
+    <!--<link type="text/css" rel="stylesheet" href="code/owl.carousel.css" />-->
+    <link type="text/css" rel="stylesheet" href="code/style.css" />
+
+
+    <!-- OG -->
+    <meta property="og:url" content="http://g.wrinkles.zdorov-cream.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Крем-воск «Здоров» от морщин" />
+    <meta property="og:image" content="http://infocdn.org/img/products_new/870.png" />
+    <meta property="og:site_name" content="Крем-воск «Здоров» от морщин" />
+
+
 </head>
 <body>
+<div class="wrapper">
+
+    <section class="intro">
+        <div class="container">
+            <header class="intro__header">
+                <a class="logo" href="#"><img alt="" src="img/logo.png"></a>
+                <ul>
+                    <li>Рекомендовано косметологами</li>
+                    <li>100% натуральный состав</li>
+                    <li>Гарантия эффективности</li>
+                </ul>
+            </header>
+            <h2>Забудьте о морщинах и дряблости кожи!</h2>
+            <p>28 дней использования омолаживающего крем-воска Здоров “сотрут” с вашего лица 20 лет!</p>
+            <div class="intro__img"><img alt="" class="intro__compare" src="img/compare.png"> <img alt="" class="intro__cream" src="img/cream.png"></div>
+            <ul class="intro__list">
+                <li>Полностью разглаживает<br>
+                    даже глубокие морщины</li>
+                <li>Безопасно,<br>
+                    без инъекций<br>
+                    и мезороллера</li>
+                <li>Проникает в глубокие<br>
+                    слои кожи, действуя<br>
+                    изнутри</li>
+                <li>Устраняет мимические<br>
+                    морщины вокруг глаз и губ</li>
+                <li>Комплексное омоложение<br>
+                    всех слоёв кожи</li>
+            </ul>
+            <div class="order-block">
+                <div class="ob__text">
+                    <h3>Оформление заказа</h3>
+                    <div class="timer-wrap">
+                        <p>до конца акции:</p>
+                        <div class="timer" id="timer">
+                            <div class="digitHolder timer-2d">
+                                <div class="timerText" data-timertext="часов">
+                                    <div class="digit timer-hrs1 hours">00</div>
+                                </div>
+                            </div>
+                            <div class="digitHolder timer-2d">
+                                <div class="timerText" data-timertext="минут">
+                                    <div class="digit timer-min1 minutes" id="timer-min">00</div>
+                                </div>
+                            </div>
+                            <div class="digitHolder timer-2d">
+                                <div class="timerText" data-timertext="секунд">
+                                    <div class="digit timer-sec1 seconds">00</div>
+                                </div>
+                            </div>
+                        </div><img alt="" src="img/cream-mini.png"></div>
+                    <div class="promo-wrap">
+                        <div class="promo__oldprice">
+                            <div>
+                                <mark>-50%</mark> <del><span class="price_land_s2">798</span> <span class="price_land_curr">грн.</span></del>
+                            </div><span>Скидка при заказе с сайта</span>
+                        </div>
+                        <div class="promo__newprice">
+                            Новая цена <b><span class="price_land_s1">399</span> <span class="price_land_curr">грн.</span></b>
+                        </div>
+                        <div class="promo__balance">
+                            Осталось по скидке: <b><span class="lastpack">7</span> шт.</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="ob__form">
+                    <form class="main-form orderformcdn" method="post" action="/order">
+
+                        <input type="hidden" name="country" value="0">
+
+                        <input type="text" required="" name="name" placeholder="Имя">
+                        <input type="text" required="" name="phone" placeholder="Телефон">
+
+                        <div class="errField"></div>
+                        <button class="btn">Заказать крем</button>
+
+                        <input type="hidden" name="address" value="">
+                        <input type="hidden" name="product_count" id="product_count"  value="1">
+                        <input type="hidden" name="number_product"  value="870">
+
+                        <input type="hidden" name="split_test_id" 	value="0">
+                        <input type="hidden" name="split_test" 		value="0">
+                        <input type="hidden" name="split_test_host" value="g.wrinkles.zdorov-cream.com">
+                        <input type="hidden" name="fchck"           value="d8ed91473fe535f5200f59f5c63256ee0f04ff78">
+                        <input type="hidden" name="ucfi" id="ucfi"  value="0">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="consist">
+        <div class="container">
+            <h2>В чём секрет эффективности <span>омолаживающего крем-воска Здоров?</span></h2>
+            <div class="consist__list">
+                <ul>
+                    <li>
+                        <p>Оливковое масло</p>
+                        <p>Обеспечивает питание мягких тканей, способствует их регенерации, придаёт эластичность, упругость, стимулирует кровоток.</p>
+                    </li>
+                    <li>
+                        <p>Прополис</p>
+                        <p>Обладает выраженными омолаживающими свойствами. Оказывает регенерирующее, противотоксическое, противоотечное действие.</p>
+                    </li>
+                    <li>
+                        <p>Подмор пчелиный</p>
+                        <p>Улучшает циркуляцию крови и обеспечивает доставку питательных веществ в глубокие слои кожи.</p>
+                    </li>
+                    <li>
+                        <p>Пчелиный яд</p>
+                        <p>Стимулирует синтез коллагена и эластина, обеспечивающих коже молодость и гладкость. Запускает процесс естественного омоложения кожи.</p>
+                    </li>
+                    <li>
+                        <p>Смола кедра сибирского</p>
+                        <p>Приводит в действие механизм обновления клеток, делая кожу более упругой. Обладает ярко выраженными регенерирующими свойствами.</p>
+                    </li>
+                    <li>
+                        <p>Воск пчелиный</p>
+                        <p>Обеспечивает пролонгированное действие крема, предохраняет кожу от обезвоживания и защищает от внешних воздействий.</p>
+                    </li>
+                    <li>
+                        <p>Экстракт конского каштана</p>
+                        <p>Снижает проницаемость стенок капилляров, что в значительной степени способствует регенерации всех видов тканей.</p>
+                    </li>
+                    <li>
+                        <p>Огневка пчелиная</p>
+                        <p>имеет высокие регенерирующие, тонизирующие свойства: усиливает обменные процессы в поврежденных тканях, способствуя усилению кровотока, насыщению кислородом и их регенерации.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="consist__history">
+                <h3>Историческая справка:</h3>
+                <p>Уже в Древнем Египте <b>пчелиный яд</b> был признан лекарством. Египетские царицы, в том числе прекрасная Нефертити, использовали омолаживающую маску из <b>пчелиного воска с ядом.</b> И на сегодняшний день, в результате нескольких сотен научных исследований, это средство признано наиболее эффективным в борьбе с морщинами и другими проявлениями старения кожи.</p>
+                <p><b>Пчелиный яд</b> содержит высокую концентрацию активных компонентов, стимулирующих синтез коллагена и эластина — ответственных за молодость кожи веществ. А <b>пчелиный воск</b> обеспечивает максимально длительное воздействие этих компонентов на глубокие слои вашей кожи.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <div class="container">
+            <h2>Омолаживающий крем-воск <span>рекомендуется использовать ежедневно, утром и вечером</span></h2>
+            <ol>
+                <li>
+                    <img alt="" src="img/step-1.png">
+                    <p>Нанесите крем<br>
+                        на очищенное лицо</p>
+                </li>
+                <li>
+                    <img alt="" src="img/step-2.png">
+                    <p>Вотрите лёгкими<br>
+                        круговыми движениями</p>
+                </li>
+                <li>
+                    <img alt="" src="img/step-3.png">
+                    <p>Через 20 минут активные<br>
+                        вещества глубоко проникнут<br>
+                        в кожу и начнут действовать</p>
+                </li>
+                <li>
+                    <img alt="" src="img/step-4.png">
+                    <p>Используйте крем-воск<br>
+                        в течение 28 дней</p>
+                </li>
+                <li>
+                    <img alt="" src="img/step-5.png">
+                    <p>Наслаждайтесь молодой<br>
+                        подтянутой кожей<br>
+                        без единой морщинки!</p>
+                </li>
+            </ol>
+            <div class="btn-wrap">
+                <a class="btn scroll" href="#order">Вернуть себе молодость!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="review">
+        <div class="container">
+            <h2>Уже через несколько применений <span>вам покажется, что биологические часы вдруг начали идти в обратную сторону!</span></h2>
+            <div class="review__question">
+                <p>Как вы думаете, сколько лет этим женщинам?</p>
+            </div>
+            <div class="review__items">
+                <blockquote>
+                    <div class="review__img">
+                        <img alt="" src="img/review-1.png"> <button data-text="Ольге - 39 лет!">Узнать возраст</button>
+                    </div>
+                    <div class="review__text">
+                        <p>“Уже после трёх применений кожа стала бархатистой, а мимические морщинки исчезли”</p><cite>Ольга, г. Минск</cite>
+                        <p>Этот воск- как молодильные яблоки из сказки! Уже после трёх применений кожа стала бархатистой, а мимические морщинки исчезли. Через 10 дней заметила, что мелкие рубцы после подросткового периода с акне тоже исчезли. А потом пришёл черёд и глубоких морщин! Кожа стала ровная, одного розоватого оттенка. Рекомендую именно этот крем-воск! Ни один крем так не помогает, а инъекции-- больно и опасно!</p>
+                    </div>
+                </blockquote>
+                <blockquote>
+                    <div class="review__img">
+                        <img alt="" src="img/review-2.png"> <button data-text="Светлане - 68 лет!">Узнать возраст</button>
+                    </div>
+                    <div class="review__text">
+                        <p>“Словами результат не описать, смотрите фото!”</p><cite>Светлана, г. Санкт-Петербург</cite>
+                        <p>Тяжело смириться с тем, что твоя красота увядает, а морщины захватывают всё большие территории на лице. Я уж собиралась было проходить курс инъекций, но страшновато было. Косметолог посоветовала крем-воск здоров-- благодаря пчелиному воску он воздействует на кожу длительное время, и все вещества успевают проникнуть и “встроиться” в эпидермис. Пользовалась чуть больше месяца. Словами результат не описать, смотрите фото!</p>
+                    </div>
+                </blockquote>
+                <blockquote>
+                    <div class="review__img">
+                        <img alt="" src="img/review-3.png"> <button data-text="Надежде - 56 лет!">Узнать возраст</button>
+                    </div>
+                    <div class="review__text">
+                        <p>“Даже под глазами морщины и морщинки ушли”</p><cite>Надежда, г. Пермь</cite>
+                        <p>У меня подруга колола ботокс, делала биоревитализацию и филеры. Денег угрохала немеряно, а лицо теперь как дутая маска! Я на это глядя, пообещала себе никогда не ложиться ни под нож, ни под иглу. Но кожа ведь неумолимо стареет!!! Никакие процедуры! От безысходности попробовала крем-воск Здоров и до сих не могу поверить, что эта молодая девушка в зеркале - я! Как будто время пошло вспять! Даже под глазами морщины и морщинки ушли, не говоря уже про лоб, носогубные и гусиные лапки! Теперь знаю, что многострадальной подруге на новый год подарю!</p>
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section class="results">
+        <div class="container">
+            <h2>Результаты клинических исследований</h2>
+            <p>В исследовании принимали участие 300 женщин в возрасте от 30 до 60 лет Продолжительность эксперимента — 28 дней</p>
+            <div class="results__groups">
+                <div>
+                    <img alt="" src="img/cream-mini.png">
+                    <p>Первая группа</p>
+                    <p>испытуемых применяла омолаживающий крем-воск Здоров</p>
+                </div>
+                <div>
+                    <img alt="" src="img/eliksir.png">
+                    <p>Вторая группа</p>
+                    <p>профессиональную французскую омолаживающую сыворотку<sup>*</sup></p>
+                </div>
+                <div>
+                    <img alt="" src="img/other-cream.png">
+                    <p>Третья группа</p>
+                    <p>группа применяла плацебо — обычный увлажняющий крем</p>
+                </div>
+            </div>
+            <div class="results__diagrammas">
+                <figure>
+                    <figcaption>
+                        Выравнивание цвета лица
+                    </figcaption><img alt="" src="img/percents-1.png">
+                </figure>
+                <figure>
+                    <figcaption>
+                        Устранение мелких морщинок и “гусиных лапок” вокруг глаз
+                    </figcaption><img alt="" src="img/percents-2.png">
+                </figure>
+                <figure>
+                    <figcaption>
+                        Устранение глубоких возрастных морщин
+                    </figcaption><img alt="" src="img/percents-3.png">
+                </figure>
+                <figure>
+                    <figcaption>
+                        Уменьшение дряблости кожи, подтяжка овала лица
+                    </figcaption><img alt="" src="img/percents-4.png">
+                </figure>
+            </div><small><sup>*</sup> название не раскрывается согласно законодательства РФ</small>
+        </div>
+    </section>
+
+    <section class="order" id="order">
+        <div class="container">
+            <h2>Оформление заказа</h2>
+            <p>Пусть ваш возраст останется секретом! <b>Верните себе молодость без операций и инъекций!</b></p>
+            <div class="order-block">
+                <div class="ob__text">
+                    <div class="promo__wrap">
+                        <div class="promo__price">
+                            <div class="promo__newprice">
+                                Новая цена <b><span class="price_land_s1">399</span> <span class="price_land_curr">грн.</span></b>
+                            </div><del><span class="price_land_s2">798</span> <span class="price_land_curr">грн.</span></del>
+                        </div><img alt="" src="img/cream.png">
+                        <div class="promo__balance">
+                            Осталось по скидке: <b><span class="lastpack">7</span> шт.</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="ob__form">
+                    <div class="promo__discount">
+                        <mark>-50%</mark> <span>Скидка при заказе с сайта</span>
+                    </div>
+                    <form class="main-form orderformcdn" method="post" action="/order">
+
+                        <input type="hidden" name="country" value="0">
+
+                        <input type="text" required="" name="name" placeholder="Имя">
+                        <input type="text" required="" name="phone" placeholder="Телефон">
+
+                        <div class="errField"></div>
+                        <button class="btn">Заказать крем</button>
+
+                        <input type="hidden" name="address" value="">
+                        <input type="hidden" name="product_count" id="product_count"  value="1">
+                        <input type="hidden" name="number_product"  value="870">
+
+                        <input type="hidden" name="split_test_id" 	value="0">
+                        <input type="hidden" name="split_test" 		value="0">
+                        <input type="hidden" name="split_test_host" value="g.wrinkles.zdorov-cream.com">
+                        <input type="hidden" name="fchck"           value="d8ed91473fe535f5200f59f5c63256ee0f04ff78">
+                        <input type="hidden" name="ucfi" id="ucfi"  value="0">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            ООО "Здоров Групп"
+            <br>ИНН 6950164431 / КПП 695001001 ОГРН 1126952005707
+            <br>170006, г. Тверь, ул. Брагина, 6А, офис 208
+            <p><br></p>
+            <p><img src="img/logo.jpg"></p>            <p><a href="/privacypolicy" target="_blank">Политика конфиденциальности</a></p>
+        </div>
+    </footer>
+
+</div>
+
+<link rel="stylesheet" href="code/go.css">
+<div class="gopane">
+    <div class="goshowb">
+        <div class="opabox gobox1">
+            <div class="mumpack">
+                <div class="numbox">6</div>
+            </div>
+            <div class="gopeople">
+                <span>Дмитрий</span>
+                <span>(Челябинск)</span>
+                <span>заказал(а) 6 упаковок</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="gotools">
+        <div class="opabox gobox2">
+            <span class="gobutton"><span>Заказать</span> прямо сейчас</span>
+        </div>
+
+        <div class="opabox gobox3">
+            <span class="gostats">
+    			<span>Сейчас на сайте:</span>
+    			<span>155 чел.</span>
+            </span>
+        </div>
+
+        <div class="opabox gobox4">
+            <span class="goflag">Быстрая доставка <span>по всей Украине</span></span>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 1 -->
